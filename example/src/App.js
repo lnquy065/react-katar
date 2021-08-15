@@ -45,8 +45,11 @@ const App = () => {
       <h1>
         React-katar
       </h1>
+      <a href="https://github.com/lnquy065/react-katar">https://github.com/lnquy065/react-katar</a>
       <p>
-        Create avatars from user IDs, no need to store it on the server
+
+
+        Create random avatars from user IDs, no need to store it on the server
       </p>
 
       <div>

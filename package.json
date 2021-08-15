@@ -1,13 +1,14 @@
 {
   "name": "react-katar",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "Create random avatars from user IDs, no need to store it on the server\n",
   "author": "lnquy065",
   "license": "MIT",
   "repository": "lnquy065/react-katar",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "keywords": ["react", "avatar", "canvas"],
   "engines": {
     "node": ">=10"
   },
