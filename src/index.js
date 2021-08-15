@@ -17,11 +17,6 @@ export const Avatar = ({ id, salt, width, className, backgroundColor, style, sha
   const hexArr = hashId.split(/(?=(?:..)*$)/)
   const [r, g, b, center, ...hRest] = hexArr
 
-
-
-  console.log(border)
-
-
   useLayoutEffect(() => {
     const katar = refCanvas.current
 
@@ -95,7 +90,7 @@ Avatar.defaultProps = {
 }
 
 Avatar.propTypes = {
-  id: PropTypes.string,
+  id: PropTypes.string.isRequired,
   salt: PropTypes.string,
   width: PropTypes.number,
   backgroundColor: PropTypes.string,
