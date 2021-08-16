@@ -6,6 +6,9 @@ Create random avatars from user IDs, no need to store it on the server
 
 ![img](https://raw.githubusercontent.com/lnquy065/react-katar/main/demo/katar.png)
 
+### Demo
+**[https://lnquy065.github.io/react-katar](https://lnquy065.github.io/react-katar/)**
+
 ## Install
 
 ```bash
